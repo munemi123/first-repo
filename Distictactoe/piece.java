@@ -1,4 +1,4 @@
-package tictactoe;
+package Distictactoe;
 import java.awt.Color;
 
 public interface piece {
@@ -23,5 +23,5 @@ public int getcol();
 public void setrow(int newrow);
 
 public void setcol(int newcol);
-
+    
 }

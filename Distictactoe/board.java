@@ -1,14 +1,10 @@
-package tictactoe;
+package Distictactoe;
 
 public class board {
-    private char[][] board;
+     private char[][] board;
 
-    public board(int rows, int cols) {
-        board = new char[rows][cols];
-    }
-
-    public char getvalue(int row, int col){
-        return board[row][col];
+    public board() {
+        board = new char[][]{{' ',' ',' '},{' ',' ',' ' },{' ',' ',' '}};;
     }
 
     public void clearboard(){
@@ -52,6 +48,5 @@ public class board {
         }
     }
 
-   
     
 }

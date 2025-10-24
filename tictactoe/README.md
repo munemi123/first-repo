@@ -1,4 +1,3 @@
-A tic tac toe game, currently still in progress
-plays against a computer
-Currently only has normal mode, but working on a secondary
-mode to be implemented later
+A normal tic tac toe game where you play against a computer
+
+*still in progress*

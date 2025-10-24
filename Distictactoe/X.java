@@ -1,20 +1,20 @@
-package tictactoe;
+package Distictactoe;
 import java.awt.Color;
 
 
-public class O implements piece{
-    private Color color;
+public class X implements piece {
+      private Color color;
     private int level;
     private int row;
     private int col;
-    private static int value = 2;
-    
+    private static int value = 3;
 
-    public O(int Orow, int Ocol){
+
+public X(int Xrow, int Xcol){
     color = Color.black;
     level = 0;
-    row = Orow;
-    col = Ocol;
+    row = Xrow;
+    col = Xcol;
 }
 
 public int getlevel(){
@@ -32,7 +32,6 @@ public void inclevel(){
 public void setcolor (Color newcolor) {
     color = newcolor;
 }
-
 public int getrow(){
     return row;
 }
