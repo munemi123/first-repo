@@ -1,5 +1,4 @@
 package tictactoe;
-import java.lang.Enum;
 
 public class Board {
     protected char[][] board;
